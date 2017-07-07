@@ -97,7 +97,7 @@ function createGraph(graph, map, deskLocation) {
 }
 
 
-function bfs(DESTINATION, graph, start) {
+function bfs(end, graph, start) {
   console.log(graph);
   let q = [];
   let curNode = [];
